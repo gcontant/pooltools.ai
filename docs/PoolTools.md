@@ -18,7 +18,8 @@ generate instructions in this order
 * The Domain project must only be referenced by the Application project
 * The Application project can be referenced by the Infrastructure or Web projects
 * The Web projects is not referenced by the other projects
-6. Use .net Aspire to orchestrate the different components 
+6. Use .net Aspire to orchestrate the different components
+7. When creating classes, use file scoped namespaces 
 
 The directory tree for the PoolTools App
 pooltools/
